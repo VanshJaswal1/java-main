@@ -1,6 +1,6 @@
 public class method2 {
      // with parameter
-    int compare (  int x ,int y ) {
+   int compare (  int x ,int y ) {
        
          int c;
          if( x>y) {

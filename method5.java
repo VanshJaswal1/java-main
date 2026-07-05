@@ -18,7 +18,7 @@ public class method5 {
         public static  void main ( String [] args) {
             
             System.out.println( " code of variable arguments"); 
-            System.out.println(" sum of 4 , 5,6  " + sum ( 4,5,6));
+            System.out.println(" sum of 4 , 5,6 is =   " + sum ( 4,5,6));
     }
 
 

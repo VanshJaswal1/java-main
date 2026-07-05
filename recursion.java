@@ -3,11 +3,12 @@ public class recursion {
 
          static void loop ( int n ) {
             
-            if ( n == 10)
+            if ( n > 10)
             {
                 return;
             }
       System.out.println(n);
+      loop(n+1);
 
          }
      public static void main(String[] args) {

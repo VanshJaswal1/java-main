@@ -30,6 +30,10 @@ public class oops {
         cat cat1 = new cat();
         cat1.type = "desi bili hai badka ji " ;
         cat1.Price = 1000;
+         
+         System.out.println("cat Name: " + cat1.type);
+        System.out.println("cat price: " + cat1.Price);
+
       }
 }
 class cat {

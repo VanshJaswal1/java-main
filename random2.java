@@ -6,6 +6,9 @@ public class random2 {
         Scanner sc = new Scanner(System.in);
         int a = num.nextInt(100);
         int b = sc.nextInt();
+        System.out.println(" the number computer choose =" + a );
+        System.out.println(" enter the number = " + b );
+        
         if (a > b){
             System.out.println("the number you had guessed is large ");
         }
@@ -15,8 +18,7 @@ public class random2 {
         else {
             System.out.println(" both number sare equal");
         }
-        System.out.println(" enter the number = " + b );
-        System.out.println(" the number computer choose =" + a );
+
         System.out.println(" nice tryyyy");
     }
 }

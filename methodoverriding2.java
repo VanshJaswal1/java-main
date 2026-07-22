@@ -70,7 +70,7 @@ public class methodoverriding2 {
 
         Payment p1 = new CreditCard("Vansh", 2500);
         Payment p2 = new UPI("devansh", 2500);
-        Payment p3 = new NetBanking("Ayush", 5000);
+        Payment p3 = new NetBanking("Ayush", n5000);
 
         p1.pay();
         p2.pay();

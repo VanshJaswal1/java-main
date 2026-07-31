@@ -14,9 +14,9 @@
  
 public class dynamic {
      public static void main(String[] args) {
-        student obj1 = new student();
+        // student obj1 = new student();
          teacher obj2 = new student();
-         obj1.Class();
+        //  obj1.Class();
          obj2.name();
      }
 }

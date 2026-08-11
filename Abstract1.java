@@ -18,9 +18,9 @@ public class Abstract1 {
     public static void main(String[] args) {
               System.out.println("just a code ");
             car obj1 = new car();
-            bus obj2 = new bus();
+            // bus obj2 = new bus();
             obj1.start();
-            obj2.start();
+            // obj2.start();
     }
 
 }

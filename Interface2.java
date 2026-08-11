@@ -16,7 +16,7 @@ interface MusicPlayer {
 }
 
 
-// Parent class
+
 class Device {
 
     String brand;
@@ -31,7 +31,7 @@ class Device {
 }
 
 
-// Smartphone
+
 class Smartphone extends Device implements Camera, GPS, MusicPlayer {
 
     Smartphone(String brand) {
@@ -55,7 +55,7 @@ class Smartphone extends Device implements Camera, GPS, MusicPlayer {
 }
 
 
-// SmartWatch
+
 class SmartWatch extends Device implements GPS, MusicPlayer {
 
     SmartWatch(String brand) {
